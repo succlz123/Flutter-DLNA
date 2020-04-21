@@ -1,0 +1,25 @@
+name: dlna_flutter_demo
+description: A Flutter demo for DLNA.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  fluttertoast: ^4.0.0
+
+  dlna: ^0.0.4
+#  dlna:
+#    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
